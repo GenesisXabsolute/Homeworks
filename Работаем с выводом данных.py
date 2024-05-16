@@ -1,0 +1,6 @@
+product = input()
+price = int(input())
+weight = int(input())
+cash = int(input())
+print("Чек " + product + " -", weight, "-", price)
+print("Итого:", price * weight, "руб Внесено:", cash, "руб Сдача:", cash - (price * weight), "руб")
